@@ -9,3 +9,11 @@ metadata:
   category: recruiting-workflow
   mcp-server: notion
 ---
+
+# Candidate Prioritization
+
+## Purpose
+
+Evaluate a collection of candidate profiles against two job descriptions and produce a transparent, evidence-based recruiter contact priority.
+
+The skill analyzes every candidate against both roles, classifies each candidate as Job A, Job B, Both, or Neither, and prepares clear recommendations for human review.
