@@ -46,3 +46,21 @@ Before starting the evaluation, confirm that the available inputs include:
 If the two roles cannot be identified reliably, stop and ask the user for clarification instead of guessing.
 
 If one or more candidate files are unreadable, incomplete, duplicated, or unsupported, record the issue and exclude those files from scoring until they can be reviewed.
+
+## Expected Outcome
+
+A completed execution must produce:
+
+- A structured interpretation of Job A.
+- A structured interpretation of Job B.
+- An evaluation of every valid candidate against both jobs.
+- One final overall classification for every evaluated candidate: Job A, Job B, Both, or Neither.
+- A prioritized recruiter contact queue.
+- Evidence-based reasons supporting every contact recommendation.
+- Candidate strengths, relevant gaps, risks, and uncertainties.
+- Follow-up questions for important information that could not be verified.
+- A clear separation between confirmed deficiencies and missing information.
+- Validation notes describing excluded, duplicated, unreadable, or incomplete files.
+- A recruiter-friendly report containing the complete evaluated candidate population.
+- A human-review disclaimer explaining that scores and rankings are decision-support indicators.
+- A Notion page only when publishing is requested, validation has passed, and an authenticated Notion MCP connection is available.
