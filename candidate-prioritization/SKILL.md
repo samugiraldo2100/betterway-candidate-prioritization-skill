@@ -161,6 +161,8 @@ Evaluate every valid candidate separately against Job A and Job B using consiste
 
 Before executing this phase, read and follow `references/candidate-evaluation.md`.
 
+For preparing the local evaluation workspace, follow `references/evaluation-execution.md`.
+
 ### Phase 4: Assign the Final Candidate Classification
 
 Assign every evaluated candidate exactly one final category: Job A, Job B, Both, or Neither, supported by the completed evaluations for both roles.
