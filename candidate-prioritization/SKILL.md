@@ -109,6 +109,8 @@ If the two roles cannot be identified reliably, stop and ask the user for clarif
 
 If one or more candidate files are unreadable, incomplete, duplicated, or unsupported, record the issue and exclude those files from scoring until they can be reviewed.
 
+For local file handling and privacy-safe input preparation, follow `references/local-input-processing.md`.
+
 ## Evaluation Framework
 
 Use the evaluation framework references when scoring and classifying candidates.
