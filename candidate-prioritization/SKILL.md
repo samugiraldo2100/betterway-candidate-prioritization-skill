@@ -18,6 +18,29 @@ Evaluate a collection of candidate profiles against two job descriptions and pro
 
 The skill analyzes every candidate against both roles, classifies each candidate as Job A, Job B, Both, or Neither, and prepares clear recommendations for human review.
 
+## Activation Scope
+
+Use this skill when the user:
+
+- Provides exactly two job descriptions and one or more candidate profiles.
+- Asks to evaluate candidates against both roles.
+- Wants candidates classified as Job A, Job B, Both, or Neither.
+- Requests a prioritized recruiter contact queue.
+- Wants evidence-based candidate strengths, gaps, uncertainties, and follow-up questions.
+- Requests a complete candidate-prioritization report.
+- Requests publication of an approved report through Notion MCP.
+
+Do not use this skill when the user:
+
+- Wants general resume writing, editing, or formatting.
+- Provides only one job description.
+- Requests evaluation of a single candidate without comparing the candidate against two roles.
+- Requests a final hiring decision without human review.
+- Wants candidates ranked using protected or sensitive personal characteristics.
+- Requests general Notion page creation unrelated to candidate prioritization.
+
+If the request is potentially relevant but the required inputs are incomplete, explain what is missing and wait for clarification instead of starting an unsupported evaluation.
+
 ## Critical Rules
 
 - Evaluate candidates only against job-related requirements found in the two job descriptions.
