@@ -111,6 +111,8 @@ If one or more candidate files are unreadable, incomplete, duplicated, or unsupp
 
 For local file handling and privacy-safe input preparation, follow `references/local-input-processing.md`.
 
+For local text extraction from input files, follow `references/local-text-extraction.md`.
+
 ## Evaluation Framework
 
 Use the evaluation framework references when scoring and classifying candidates.
