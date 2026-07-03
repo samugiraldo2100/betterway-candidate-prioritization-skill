@@ -28,10 +28,14 @@ temp/
 # Local input packages
 sample-pack*.zip
 data/input/*
+!data/input/
 !data/input/.gitkeep
 
 # Generated outputs
 outputs/*
+!outputs/
 !outputs/.gitkeep
+
 reports/generated/*
 !reports/generated/
+!reports/generated/.gitkeep
