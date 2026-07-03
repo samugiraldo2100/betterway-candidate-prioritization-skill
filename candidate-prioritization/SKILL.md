@@ -59,8 +59,29 @@ Examples that should not activate this skill:
 - "Write a job description for a software developer."
 - "Choose who should be hired based on age, gender, nationality, or another protected characteristic."
 
-## Critical Rules
+## General Error Handling
 
+When any workflow phase fails:
+
+1. Stop before advancing to the next phase.
+2. Preserve all previously completed and validated work.
+3. Record the phase, failed operation, affected files or candidates, and available error details.
+4. Determine whether the failure is caused by missing inputs, unreadable files, unsupported formats, inconsistent data, failed validation, or an unavailable external tool.
+5. Follow the recovery instructions in the relevant reference file.
+6. Ask the user for clarification only when the missing information cannot be resolved safely from the supplied files.
+7. Retry only the failed phase when possible instead of restarting the complete workflow.
+8. Re-run every validation check affected by the correction.
+9. Do not report the workflow as complete until the failed operation has succeeded or the limitation has been disclosed clearly.
+
+Never:
+
+- Hide or silently ignore an error.
+- Discard valid completed work unnecessarily.
+- Duplicate candidate evaluations or published report sections during a retry.
+- Weaken validation rules to force successful completion.
+- Expose credentials, access tokens, private configuration values, or unnecessary sensitive information in an error message.
+
+## Critical Rules
 - Evaluate candidates only against job-related requirements found in the two job descriptions.
 - Review every candidate against both jobs before assigning a final classification.
 - Classify every candidate into exactly one overall category: Job A, Job B, Both, or Neither.
