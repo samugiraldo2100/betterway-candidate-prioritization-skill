@@ -17,3 +17,18 @@ metadata:
 Evaluate a collection of candidate profiles against two job descriptions and produce a transparent, evidence-based recruiter contact priority.
 
 The skill analyzes every candidate against both roles, classifies each candidate as Job A, Job B, Both, or Neither, and prepares clear recommendations for human review.
+
+## Critical Rules
+
+- Evaluate candidates only against job-related requirements found in the two job descriptions.
+- Review every candidate against both jobs before assigning a final classification.
+- Classify every candidate into exactly one overall category: Job A, Job B, Both, or Neither.
+- Do not classify or rank candidates using keyword matches alone.
+- Support every important recommendation with evidence found in the supplied candidate profile.
+- Distinguish missing information from information confirmed to be absent.
+- Do not invent experience, skills, education, certifications, location, salary expectations, language proficiency, availability, or employment history.
+- Do not use protected or sensitive personal characteristics as evaluation criteria.
+- Treat scores and rankings as decision-support indicators, not final hiring decisions.
+- Add human-review notes whenever evidence is incomplete, ambiguous, outdated, or contradictory.
+- Ensure every candidate appears exactly once in the final overall classification.
+- Do not publish a final report to Notion until the evaluation and report have passed validation.
