@@ -41,6 +41,24 @@ Do not use this skill when the user:
 
 If the request is potentially relevant but the required inputs are incomplete, explain what is missing and wait for clarification instead of starting an unsupported evaluation.
 
+## Activation Examples
+
+Examples that should activate this skill:
+
+- "Compare these candidate profiles against Job A and Job B and tell me who to contact first."
+- "Classify every candidate as Job A, Job B, Both, or Neither."
+- "Review these resumes against both Oracle roles and create a prioritized recruiter queue."
+- "Evaluate all candidates, explain their strengths and gaps, and prepare a recruiting report."
+- "Use the completed candidate evaluation to publish the approved report in Notion."
+
+Examples that should not activate this skill:
+
+- "Improve the wording of my resume."
+- "Create a general Notion project page."
+- "Evaluate this candidate for one position only."
+- "Write a job description for a software developer."
+- "Choose who should be hired based on age, gender, nationality, or another protected characteristic."
+
 ## Critical Rules
 
 - Evaluate candidates only against job-related requirements found in the two job descriptions.
