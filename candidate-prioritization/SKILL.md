@@ -109,6 +109,16 @@ If the two roles cannot be identified reliably, stop and ask the user for clarif
 
 If one or more candidate files are unreadable, incomplete, duplicated, or unsupported, record the issue and exclude those files from scoring until they can be reviewed.
 
+## Evaluation Framework
+
+Use the evaluation framework references when scoring and classifying candidates.
+
+Before assigning role-fit scores, read and follow `references/evaluation-rubric.md`.
+
+Before assigning final classifications or outreach priorities, read and follow `references/scoring-rules.md`.
+
+The rubric and scoring rules support structured comparison, but they do not replace evidence review or human judgment.
+
 ## Expected Outcome
 
 A completed execution must produce:
