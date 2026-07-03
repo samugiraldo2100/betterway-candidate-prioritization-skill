@@ -32,3 +32,17 @@ The skill analyzes every candidate against both roles, classifies each candidate
 - Add human-review notes whenever evidence is incomplete, ambiguous, outdated, or contradictory.
 - Ensure every candidate appears exactly once in the final overall classification.
 - Do not publish a final report to Notion until the evaluation and report have passed validation.
+
+## Required Inputs
+
+Before starting the evaluation, confirm that the available inputs include:
+
+1. Exactly two identifiable job descriptions.
+2. At least one candidate profile.
+3. Readable content for every file being evaluated.
+4. A clear distinction between Job A and Job B.
+5. A reliable way to identify each candidate across the evaluation and final report.
+
+If the two roles cannot be identified reliably, stop and ask the user for clarification instead of guessing.
+
+If one or more candidate files are unreadable, incomplete, duplicated, or unsupported, record the issue and exclude those files from scoring until they can be reviewed.
