@@ -2,6 +2,29 @@
 
 Use this reference during Phase 7 of the candidate-prioritization workflow.
 
+## Report Template
+
+Use the Markdown report template at:
+
+`reports/templates/candidate-prioritization-report.md`
+
+The template provides a safe structure for the final recruiter-facing report, including:
+
+- Report context.
+- Executive summary.
+- Priority contact queue.
+- Job A recommendations.
+- Job B recommendations.
+- Candidates suitable for both jobs.
+- Candidates requiring additional review.
+- Complete candidate matrix.
+- Excluded files.
+- Methodology.
+- Limitations.
+- Final recommendation.
+
+Generated reports should be written to the ignored `reports/generated/` folder.
+
 ## Objective
 
 Generate a complete, internally consistent, evidence-based, and recruiter-friendly report after validation succeeds.
