@@ -7,7 +7,7 @@ Project:
 BetterWay Candidate Prioritization Skill
 
 Repository:
-TODO: Paste the public GitHub repository URL here.
+https://github.com/samugiraldo2100/betterway-candidate-prioritization-skill.git
 
 Loom video:
 PENDING - Loom video will be recorded and added before final submission.
@@ -16,7 +16,7 @@ Published Notion report:
 https://erratic-vein-f62.notion.site/BetterWay-Candidate-Prioritization-Skill-Submission-Report-2c52d35ba5a847ae9f5a6655eef45487?pvs=143
 
 Total time spent:
-PENDING - Add final time spent before final submission.
+Approximately 12 hours.
 
 Submission summary:
 This repository contains a Claude Skill designed to prioritize candidates against two job descriptions. The skill supports a recruiter-facing workflow that validates input files, interprets both job descriptions, evaluates every candidate against Job A and Job B, applies a weighted rubric, assigns a final classification, prioritizes recruiter outreach, and prepares a structured final report.
