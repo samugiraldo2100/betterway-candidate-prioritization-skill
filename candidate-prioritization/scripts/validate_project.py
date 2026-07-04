@@ -23,8 +23,10 @@ REQUIRED_FILES = [
     ".gitignore",
     "candidate-prioritization/SKILL.md",
     "reports/templates/candidate-prioritization-report.md",
+    "SUBMISSION.txt",
+    "agent.md",
+    "docs/notion-mcp-setup.md",
 ]
-
 REQUIRED_REFERENCES = [
     "candidate-prioritization/references/input-validation.md",
     "candidate-prioritization/references/job-interpretation.md",
