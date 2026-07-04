@@ -1,0 +1,108 @@
+BetterWay Candidate Prioritization Skill Submission
+
+Candidate:
+Samuel Giraldo
+
+Project:
+BetterWay Candidate Prioritization Skill
+
+Repository:
+TODO: Paste the public GitHub repository URL here.
+
+Loom video:
+PENDING - Loom video will be recorded and added before final submission.
+
+Published Notion report:
+https://erratic-vein-f62.notion.site/BetterWay-Candidate-Prioritization-Skill-Submission-Report-2c52d35ba5a847ae9f5a6655eef45487?pvs=143
+
+Total time spent:
+PENDING - Add final time spent before final submission.
+
+Submission summary:
+This repository contains a Claude Skill designed to prioritize candidates against two job descriptions. The skill supports a recruiter-facing workflow that validates input files, interprets both job descriptions, evaluates every candidate against Job A and Job B, applies a weighted rubric, assigns a final classification, prioritizes recruiter outreach, and prepares a structured final report.
+
+The project was designed with traceability, privacy, and responsible screening in mind. Candidate documents, job PDFs, extracted text, generated inventories, workspace outputs, and generated reports are intentionally kept local and ignored by Git.
+
+Main deliverable files:
+- candidate-prioritization/SKILL.md
+- candidate-prioritization/references/
+- candidate-prioritization/scripts/
+- reports/templates/candidate-prioritization-report.md
+- agent.md
+- docs/notion-mcp-setup.md
+- SUBMISSION.txt
+
+What the skill does:
+- Validates that the input package contains the required job and candidate files.
+- Separates the evaluation process into clear workflow phases.
+- Evaluates each candidate against both Job A and Job B.
+- Uses evidence states to avoid unsupported assumptions.
+- Applies a weighted candidate evaluation rubric.
+- Classifies candidates as Job A, Job B, Both, or Neither.
+- Assigns recruiter outreach priority.
+- Produces a structured recruiter-facing report template.
+- Includes validation scripts to verify project structure and reference integrity.
+- Supports optional publication to Notion when a Notion MCP connection is available.
+
+What the skill does not do:
+- It does not make final hiring decisions.
+- It does not replace human recruiter review.
+- It does not rank candidates using protected or sensitive personal characteristics.
+- It does not commit private candidate files or generated outputs to Git.
+- It does not publish to Notion unless a valid Notion MCP connection is configured.
+
+Local test summary:
+The project was tested locally with the provided sample package using the repository's privacy-safe input structure.
+
+Local input structure used:
+- data/input/jobs/
+- data/input/candidates/
+
+Test result:
+- 2 job description files were placed in data/input/jobs/.
+- 30 candidate profile files were placed in data/input/candidates/.
+- The input inventory script detected the expected files.
+- Text extraction completed successfully.
+- The local evaluation workspace was generated.
+- The evaluation workspace reported 2 job files and 30 candidate files.
+- The final project validation script passed.
+- Private files and generated outputs remained ignored by Git.
+
+Validation commands used:
+- py candidate-prioritization/scripts/validate_skill_references.py
+- py candidate-prioritization/scripts/validate_evaluation_framework.py
+- py candidate-prioritization/scripts/validate_project.py
+- py candidate-prioritization/scripts/inventory_input_files.py
+- py candidate-prioritization/scripts/extract_input_text.py
+- py candidate-prioritization/scripts/build_evaluation_workspace.py
+
+Repository workflow:
+The project was developed using GitHub Flow.
+
+Main branch strategy:
+- main stayed stable.
+- Each major phase was implemented in its own branch.
+- Each branch was merged through a Pull Request.
+- Merge commits were preserved for traceability.
+- Historical branches were kept instead of deleted.
+
+Implemented phases:
+- Repository foundation.
+- Skill core.
+- Evaluation framework.
+- Local input processing.
+- Local text extraction.
+- Evaluation execution workspace.
+- Recruiter report template.
+- Final project validation.
+- Final submission documentation.
+- Deliverable files.
+
+Notes for reviewer:
+The repository intentionally does not include private candidate PDFs, job description PDFs, extracted text outputs, generated inventories, generated workspaces, or generated reports. Those files are local-only and excluded through .gitignore.
+
+Before final submission:
+- Replace the repository TODO with the public GitHub repository URL.
+- Replace the Loom pending line with the final Loom URL.
+- Replace the total time pending line with the final time spent.
+- Confirm that Pablo has been added as a repository collaborator.
