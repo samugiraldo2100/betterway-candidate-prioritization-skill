@@ -39,6 +39,7 @@ REQUIRED_REFERENCES = [
     "candidate-prioritization/references/local-input-processing.md",
     "candidate-prioritization/references/local-text-extraction.md",
     "candidate-prioritization/references/evaluation-execution.md",
+    "candidate-prioritization/references/final-validation-checklist.md",
 ]
 
 REQUIRED_SCRIPTS = [
