@@ -192,3 +192,7 @@ Before executing this phase, read and follow `references/report-specification.md
 Publish the approved and validated recruiter report only through an authenticated Notion MCP connection, then verify the completed page and record its reference.
 
 Before executing this phase, read and follow `references/notion-publishing.md`.
+
+## Final Submission Validation
+
+Before final submission, follow `references/final-validation-checklist.md`.
