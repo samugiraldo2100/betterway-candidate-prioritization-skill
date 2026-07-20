@@ -39,3 +39,6 @@ outputs/*
 reports/generated/*
 !reports/generated/
 !reports/generated/.gitkeep
+
+# Generated distribution packages
+dist/
