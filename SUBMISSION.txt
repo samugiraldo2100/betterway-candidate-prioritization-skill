@@ -10,7 +10,7 @@ Repository:
 https://github.com/samugiraldo2100/betterway-candidate-prioritization-skill.git
 
 Loom video:
-PENDING - Loom video will be recorded and added before final submission.
+https://www.loom.com/share/04188427bcf3499a8d9d79daf682c6f1
 
 Published Notion report:
 https://erratic-vein-f62.notion.site/BetterWay-Candidate-Prioritization-Skill-Submission-Report-2c52d35ba5a847ae9f5a6655eef45487?pvs=143
